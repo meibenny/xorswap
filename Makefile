@@ -9,4 +9,4 @@ xorswap.o: xorswap.cpp
 	$(COMPILER) $(FLAGS) -c xorswap.cpp
 
 clean:
-	rm -f $(EXECUTABLE) $(OBJFILES)
+	rm -f $(EXECUTABLE) *.o 
